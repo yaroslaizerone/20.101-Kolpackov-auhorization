@@ -1,0 +1,28 @@
+﻿<Window x:Class="_20._101_Kolpackov_auhorization.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_20._101_Kolpackov_auhorization"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="89*"/>
+            <ColumnDefinition Width="91*"/>
+            <ColumnDefinition Width="84*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="131*"/>
+            <RowDefinition Height="121*"/>
+            <RowDefinition Height="167*"/>
+        </Grid.RowDefinitions>
+        <TextBox x:Name="TBLogin" HorizontalAlignment="Left" Height="23" Margin="11,26,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="255" Grid.Row="1" Grid.Column="1"/>
+        <TextBox x:Name="TBPassword" HorizontalAlignment="Left" Height="23" Margin="11,78,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="255" Grid.Row="1" Grid.Column="1"/>
+        <Label Content="Авторизация" Margin="93,65,88,40" Grid.Column="1"/>
+        <Button Content="Вход" Margin="49,40,47,100" Grid.Row="2" Grid.Column="1" Click="Button_Click"/>
+        <Label Content="Введите логин:" HorizontalAlignment="Left" Margin="11,0,0,0" VerticalAlignment="Top" Height="26" Width="102" Grid.Column="1" Grid.Row="1"/>
+        <Label Content="Введите пароль:" HorizontalAlignment="Left" Margin="11,47,0,0" VerticalAlignment="Top" Grid.Row="1" Height="26" Width="102" Grid.Column="1"/>
+
+    </Grid>
+</Window>

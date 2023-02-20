@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32901.82
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "20.101-Kolpackov-auhorization", "20.101-Kolpackov-auhorization\20.101-Kolpackov-auhorization.csproj", "{9FF6DCA8-9875-4885-9EBB-AF6E99CE43CF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9FF6DCA8-9875-4885-9EBB-AF6E99CE43CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FF6DCA8-9875-4885-9EBB-AF6E99CE43CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FF6DCA8-9875-4885-9EBB-AF6E99CE43CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FF6DCA8-9875-4885-9EBB-AF6E99CE43CF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8CCBC0B8-F4F3-40C6-AC0C-D0B4B8479C96}
+	EndGlobalSection
+EndGlobal
